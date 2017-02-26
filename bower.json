@@ -1,5 +1,5 @@
 {
-  "name": "angular-ahdin",
+  "name": "angular-ahdin-mybrokenwalls",
   "homepage": "https://github.com/fastmonkeys/angular-ahdin",
   "authors": [
     "Roope Hovi <roope.hovi@gmail.com>"
@@ -10,7 +10,6 @@
     "globals"
   ],
   "license": "MIT",
-  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
