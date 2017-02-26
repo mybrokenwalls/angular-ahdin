@@ -17,9 +17,9 @@ module.exports = {
   },
   resolve: {
     alias: {
-      'load-image$': 'blueimp-load-image/js/load-image.all.min.js',
-      'load-image-exif$': 'blueimp-load-image/js/load-image.all.min.js',
-      'load-image-meta$': 'blueimp-load-image/js/load-image.all.min.js'
+      'load-image$': 'load-image.all.min/index.js.js',
+      'load-image-exif$': 'load-image.all.min/index.js.js',
+      'load-image-meta$': 'load-image.all.min/index.js.js'
     }
   },
   externals: {
@@ -30,10 +30,10 @@ module.exports = {
       commonjs2: 'blob-util',
       root: 'blobUtil'
     },
-    'blueimp-load-image/js/load-image.all.min': {
-      amd: 'blueimp-load-image/js/load-image.all.min',
-      commonjs: 'blueimp-load-image/js/load-image.all.min',
-      commonjs2: 'blueimp-load-image/js/load-image.all.min',
+    'load-image.all.min/index.js': {
+      amd: 'load-image.all.min/index.js',
+      commonjs: 'load-image.all.min/index.js',
+      commonjs2: 'load-image.all.min/index.js',
       root: 'loadImage'
     }
   },

@@ -2,7 +2,7 @@
 
 var angular = require('angular');
 var blobUtil = require('blob-util');
-var loadImage = require('blueimp-load-image/js/load-image.all.min');
+var loadImage = require('load-image.all.min/index.js');
 
 module.exports = angular
   .module('ahdin', [])
