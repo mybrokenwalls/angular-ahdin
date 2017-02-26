@@ -20,6 +20,6 @@
   "dependencies": {
     "angular": "^1.2.0",
     "blob-util": "^1.0.0",
-    "blueimp-load-image": ">=1.13.0 <3.0.0"
+    "load-image.all.min": "https://github.com/mybrokenwalls/JavaScript-Load-Image/blob/master/js/load-image.all.min.js"
   }
 }
